@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokédex di Nezel</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="pokedex">
+    <header>
+      <h1>Pokédex di Nezel</h1>
+      <p>Inquadra una creatura per scansionarla e vedere la scheda.</p>
+    </header>
+
+    <section class="scanner">
+      <button id="startCameraButton">Attiva fotocamera</button>
+      <button id="scanButton" disabled>Scansiona creatura</button>
+
+      <div id="cameraContainer">
+        <video id="cameraStream" autoplay playsinline></video>
+      </div>
+
+      <canvas id="captureCanvas" style="display:none;"></canvas>
+    </section>
+
+    <section class="card" id="creatureCard" hidden>
+      <div class="card-header">
+        <h2 id="creatureName"></h2>
+        <span id="creatureType" class="badge"></span>
+      </div>
+      <div class="card-body">
+        <div class="card-image">
+          <img id="creatureImage" alt="Creatura" />
+        </div>
+        <div class="card-info">
+          <p><strong>Habitat:</strong> <span id="creatureHabitat"></span></p>
+          <p><strong>Abilità:</strong> <span id="creatureAbilities"></span></p>
+          <p><strong>Lore:</strong> <span id="creatureLore"></span></p>
+          <div class="stats">
+            <h3>Statistiche</h3>
+            <ul>
+              <li><strong>HP:</strong> <span id="statHP"></span></li>
+              <li><strong>Forza:</strong> <span id="statStrenght"></span></li>
+              <li><strong>Destrezza:</strong> <span id="statDexterity"></span></li>
+              <li><strong>Vitalità:</strong> <span id="statVitality"></span></li>
+              <li><strong>Speciale:</strong> <span id="statSpecial"></span></li>
+              <li><strong>Intuito:</strong> <span id="statInsight"></span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="message" class="message"></section>
+  </div>
+
+  <!-- Librerie Teachable Machine / TensorFlow -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.21.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8.3/dist/teachablemachine-image.min.js"></script>
+
+
+  <!-- Il tuo script -->
+  <script src="script.js"></script>
+</body>
+</html>

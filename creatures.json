@@ -1,0 +1,240 @@
+[
+  {
+    "id": "teddasa",
+    "name": "Teddasa",
+    "type": "Erba",
+    "habitat": "Sconosciuto",
+    "abilities": ["Erbaiuto"],
+    "lore": "Si dice che l'alito di TEDDASA possa rilassare anche gli animi più tesi.",
+    "image": "images/teddasa.png",
+    "stats": {
+      "hp": 3,
+      "strenght": "2/5",
+      "dexterity": "2/4",
+      "vitality": "1/3",
+      "special": "1/3",
+      "insight": "1/3"
+    }
+  },
+  {
+    "id": "asanda",
+    "name": "Asanda",
+    "type": "Erba",
+    "habitat": "Sconosciuto",
+    "abilities": ["Erbaiuto"],
+    "lore": "Un proverbio di Pelaghipoli dice che dove c'è una protesta c'è un ASANDA.",
+    "image": "images/asanda.png",
+    "stats": {
+      "hp": 4,
+      "strenght": "3/6",
+      "dexterity": "2/5",
+      "vitality": "2/4",
+      "special": "2/4",
+      "insight": "2/4"
+    }
+  },
+  {
+    "id": "berserasa_special",
+    "name": "Berserasa (Koning Krul)",
+    "type": "Erba / Buio",
+    "habitat": "Sconosciuto",
+    "abilities": ["Caos"],
+    "lore": "Il potere di BERSERASA sconfina nel più puro caos anarchico.",
+    "image": "images/berserasa_special.png",
+    "stats": {
+      "hp": 5,
+      "strenght": "3/7",
+      "dexterity": "2/5",
+      "vitality": "2/5",
+      "special": "2/5",
+      "insight": "2/5"
+    }
+  },
+  {
+    "id": "berserasa",
+    "name": "Berserasa",
+    "type": "Erba / Buio",
+    "habitat": "Sconosciuto",
+    "abilities": ["Erbaiuto"],
+    "lore": "Ha un carattere incontenibile e molto spesso non presta attenzioni ai nemici né tantomeno agli amici.",
+    "image": "images/berserasa.png",
+    "stats": {
+      "hp": 5,
+      "strenght": "3/7",
+      "dexterity": "2/5",
+      "vitality": "2/5",
+      "special": "2/5",
+      "insight": "2/5"
+    }
+  },
+  {
+    "id": "kimber",
+    "name": "Kimber",
+    "type": "Fuoco",
+    "habitat": "Sconosciuto",
+    "abilities": ["Aiutofuoco"],
+    "lore": "È un giocherellone e ama divertirsi con le piccole prede prima di mangiarle.",
+    "image": "images/kimber.png",
+    "stats": {
+      "hp": 3,
+      "strenght": "2/4",
+      "dexterity": "2/4",
+      "vitality": "1/3",
+      "special": "2/4",
+      "insight": "1/3"
+    }
+  },
+  {
+    "id": "kimburn",
+    "name": "Kimburn",
+    "type": "Fuoco",
+    "habitat": "Sconosciuto",
+    "abilities": ["Aiutofuoco"],
+    "lore": "Viene considerato da molti il più presuntuoso tra i Pokémon.",
+    "image": "images/kimburn.png",
+    "stats": {
+      "hp": 4,
+      "strenght": "2/4",
+      "dexterity": "2/5",
+      "vitality": "2/4",
+      "special": "2/5",
+      "insight": "2/4"
+    }
+  },
+  {
+    "id": "kimblast_special",
+    "name": "Kimblast (Koning Krul)",
+    "type": "Fuoco",
+    "habitat": "Sconosciuto",
+    "abilities": ["Assolutismo"],
+    "lore": "Il potere reale di KIMBLAST si intensifica, diventando incontestabile.",
+    "image": "images/kimblast_special.png",
+    "stats": {
+      "hp": 5,
+      "strenght": "2/5",
+      "dexterity": "3/7",
+      "vitality": "2/5",
+      "special": "3/6",
+      "insight": "2/5"
+    }
+  },
+  {
+    "id": "kimblast",
+    "name": "Kimblast",
+    "type": "Fuoco",
+    "habitat": "Sconosciuto",
+    "abilities": ["Aiutofuoco"],
+    "lore": "È spesso definito come il Pokémon più nobile di tutti. Si dice che ogni volta che ruggisca, da qualche parte sia nato un Re.",
+    "image": "images/kimblast.png",
+    "stats": {
+      "hp": 5,
+      "strenght": "2/5",
+      "dexterity": "3/7",
+      "vitality": "2/5",
+      "special": "3/6",
+      "insight": "2/5"
+    }
+  },
+  {
+    "id": "octopuppy",
+    "name": "Octopuppy",
+    "type": "Acqua",
+    "habitat": "Sconosciuto",
+    "abilities": ["Acquaiuto"],
+    "lore": "Chi guarda i suoi occhioni spesso si ritrova in un luogo senza aver memoria di come ci sia finito.",
+    "image": "images/octopuppy.png",
+    "stats": {
+      "hp": 3,
+      "strenght": "2/4",
+      "dexterity": "2/5",
+      "vitality": "1/3",
+      "special": "2/5",
+      "insight": "1/3"
+    }
+  },
+  {
+    "id": "octopaul",
+    "name": "Octopaul",
+    "type": "Acqua / Psico",
+    "habitat": "Sconosciuto",
+    "abilities": ["Acquaiuto"],
+    "lore": "In passato è stato usato per prevedere i risultati dei principali tornei Pokémon. Oggi tale pratica è vietata dalla legge.",
+    "image": "images/octopaul.png",
+    "stats": {
+      "hp": 4,
+      "strenght": "2/5",
+      "dexterity": "2/5",
+      "vitality": "2/4",
+      "special": "3/5",
+      "insight": "2/4"
+    }
+  },
+  {
+    "id": "octopocus_special",
+    "name": "Octopocus (Koning Krul)",
+    "type": "Acqua / Psico",
+    "habitat": "Sconosciuto",
+    "abilities": ["Demagogia"],
+    "lore": "Il potere di OCTOPOCUS aumenta notevolmente sfruttando il potere corruttivo di promesse irrealizzabili.",
+    "image": "images/octopocus_special.png",
+    "stats": {
+      "hp": 5,
+      "strenght": "2/5",
+      "dexterity": "3/6",
+      "vitality": "2/5",
+      "special": "3/7",
+      "insight": "2/5"
+    }
+  },
+  {
+    "id": "octopocus",
+    "name": "Octopocus",
+    "type": "Acqua / Psico",
+    "habitat": "Sconosciuto",
+    "abilities": ["Acquaiuto"],
+    "lore": "Il potere psichico di OCTOPAUL aumenta al punto da permettergli di possedere un'altra creatura, evolvendolo in OCTOPOCUS.",
+    "image": "images/octopocus.png",
+    "stats": {
+      "hp": 5,
+      "strenght": "2/5",
+      "dexterity": "3/6",
+      "vitality": "2/5",
+      "special": "3/7",
+      "insight": "2/5"
+    }
+  },
+  {
+    "id": "squittel",
+    "name": "Squittel",
+    "type": "Normale",
+    "habitat": "Aree Boschive di Nord ed Est",
+    "abilities": ["Fugafacile"],
+    "lore": "Un tempo molto presente nelle aree urbane, questo Pokémon pare essersi ritirato nei boschi a causa dell'aumento di Pokémon potenti nelle città.",
+    "image": "images/squittel.png",
+    "stats": {
+      "hp": 3,
+      "strenght": "2/5",
+      "dexterity": "2/4",
+      "vitality": "1/3",
+      "special": "1/2",
+      "insight": "1/3"
+    }
+  },
+  {
+    "id": "squiridder",
+    "name": "Squiridder",
+    "type": "Normale / Erba",
+    "habitat": "Aree Boschive di Nord ed Est",
+    "abilities": ["Fogliamanto"],
+    "lore": "Non è affatto raro trovarne uno a protezione di un piccolo gruppo di SQUITTEL. La sua corazza di foglie è molto più resistente di quanto si possa pensare.",
+    "image": "images/squiridder.png",
+    "stats": {
+      "hp": 4,
+      "strenght": "3/6",
+      "dexterity": "3/6",
+      "vitality": "2/5",
+      "special": "1/3",
+      "insight": "2/4"
+    }
+  }
+]
