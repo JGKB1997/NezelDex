@@ -236,5 +236,73 @@
       "special": "1/3",
       "insight": "2/4"
     }
+  },
+  {
+    "id": "buzly",
+    "name": "Buzly",
+    "type": "Normale / Volante",
+    "habitat": "Tutte le Aree Boschive",
+    "abilities": ["Agonismo"],
+    "lore": "Non è affatto raro trovarne uno a protezione di un piccolo gruppo di SQUITTEL. La sua corazza di foglie è molto più resistente di quanto si possa pensare.",
+    "image": "images/buzly.png",
+    "stats": {
+      "hp": 3,
+      "strenght": "2/4",
+      "dexterity": "2/4",
+      "vitality": "1/3",
+      "special": "1/3",
+      "insight": "1/3"
+    }
+  },
+  {
+    "id": "buzird",
+    "name": "Buzird",
+    "type": "Normale / Volante",
+    "habitat": "Tutte le Aree Boschive",
+    "abilities": ["Agonismo"],
+    "lore": "Non è affatto raro trovarne uno a protezione di un piccolo gruppo di SQUITTEL. La sua corazza di foglie è molto più resistente di quanto si possa pensare.",
+    "image": "images/buzird.png",
+    "stats": {
+      "hp": 4,
+      "strenght": "2/4",
+      "dexterity": "2/5",
+      "vitality": "2/4",
+      "special": "2/4",
+      "insight": "2/4"
+    }
+  },
+  {
+    "id": "buziz_special",
+    "name": "Buziz (Koning Krul)",
+    "type": "Normale / Volante",
+    "habitat": "Sconosciuto",
+    "abilities": ["Mandato del Cielo"],
+    "lore": "Il potere di OCTOPOCUS aumenta notevolmente sfruttando il potere corruttivo di promesse irrealizzabili.",
+    "image": "images/buziz_special.png",
+    "stats": {
+      "hp": 5,
+      "strenght": "3/6",
+      "dexterity": "3/8",
+      "vitality": "2/5",
+      "special": "2/4",
+      "insight": "2/4"
+    }
+  },
+  {
+    "id": "buziz",
+    "name": "Buziz",
+    "type": "Normale / Volante",
+    "habitat": "Tutte le Aree Boschive",
+    "abilities": ["Agonismo"],
+    "lore": "Il potere di OCTOPOCUS aumenta notevolmente sfruttando il potere corruttivo di promesse irrealizzabili.",
+    "image": "images/buziz.png",
+    "stats": {
+      "hp": 5,
+      "strenght": "3/6",
+      "dexterity": "3/8",
+      "vitality": "2/5",
+      "special": "2/4",
+      "insight": "2/4"
+    }
   }
 ]
